@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ex101</string>
+    <string name="first_dialog">First dialog</string>
+    <string name="second_dialog">Second dialog</string>
+    <string name="third_dialog">Third dialog</string>
+    <string name="fourth_dialog">Fourth dialog</string>
+    <string name="fifth_dialog">Fifth dialog</string>
+    <string name="this_app_was_created_by">This app was created by</string>
+    <string name="shahar_yani">Shahar Yani</string>
+</resources>
