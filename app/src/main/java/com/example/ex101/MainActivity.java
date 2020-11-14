@@ -17,7 +17,7 @@ import java.util.Random;
 
 /**
  *  * @author		Shahar Yani
- *  * @version  	1.0
+ *  * @version  	1.1
  *  * @since		12/11/2020
  *
  *  * This MainActivity.class displays 5 different types of alertDialog view object
