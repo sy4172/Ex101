@@ -17,7 +17,7 @@ import java.util.Random;
 
 /**
  *  * @author		Shahar Yani
- *  * @version  	1.1
+ *  * @version  	1.2
  *  * @since		12/11/2020
  *
  *  * This MainActivity.class displays 5 different types of alertDialog view object
@@ -31,14 +31,14 @@ public class MainActivity extends AppCompatActivity implements DialogInterface.O
     /**
      * The Layout is the screen layout of the activity.
      */
-    LinearLayout layout;
+    LinearLayout layoutScreen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        layout = findViewById(R.id.layout);
+        layoutScreen = findViewById(R.id.layoutScreen);
     }
 
     /**
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements DialogInterface.O
                 int r = rnd.nextInt()*256;
                 int g = rnd.nextInt()*256;
                 int b = rnd.nextInt()*256;
-                layout.setBackgroundColor(Color.rgb(r,g,b));
+                layoutScreen.setBackgroundColor(Color.rgb(r,g,b));
             }
         });
         adb.setNeutralButton("BACK", new DialogInterface.OnClickListener() {
@@ -138,13 +138,13 @@ public class MainActivity extends AppCompatActivity implements DialogInterface.O
                 int r = rnd.nextInt()*256;
                 int g = rnd.nextInt()*256;
                 int b = rnd.nextInt()*256;
-                layout.setBackgroundColor(Color.rgb(r,g,b));
+                layoutScreen.setBackgroundColor(Color.rgb(r,g,b));
             }
         });
         adb.setNegativeButton("CLEAR", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                layout.setBackgroundResource(R.color.white);
+                layoutScreen.setBackgroundResource(R.color.white);
             }
         });
         adb.setNeutralButton("BACK", new DialogInterface.OnClickListener() {

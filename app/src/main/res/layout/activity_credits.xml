@@ -25,19 +25,19 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0px"
-            android:layout_weight="2"
+            android:layout_weight="3"
             android:gravity="center"
             android:text="@string/this_app_was_created_by"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textSize="33sp"
+            android:textSize="29sp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
-            android:gravity="center"
+            android:gravity="center_horizontal|top"
             android:text="@string/shahar_yani"
             android:textAllCaps="true"
             android:textSize="27sp" />
