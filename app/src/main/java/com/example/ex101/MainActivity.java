@@ -17,7 +17,7 @@ import java.util.Random;
 
 /**
  *  * @author		Shahar Yani
- *  * @version  	1.2
+ *  * @version  	1.3
  *  * @since		12/11/2020
  *
  *  * This MainActivity.class displays 5 different types of alertDialog view object
@@ -25,7 +25,7 @@ import java.util.Random;
  *  */
 public class MainActivity extends AppCompatActivity implements DialogInterface.OnClickListener {
     /**
-     * The Adb is bind all the features of an alertDialog.
+     * The Adb is binding all the features of an alertDialog.
      */
     AlertDialog.Builder adb;
     /**
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements DialogInterface.O
 
     /**
      * First selected works when it selected and displays an alertDialog object
-     * with the features below.
+     * with a message
      *
      * @param view the view
      */
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements DialogInterface.O
 
     /**
      * Second selected works when it selected and displays an alertDialog object
-     * with the features below.
+     * with a message and an icon.
      *
      * @param view the view
      */
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements DialogInterface.O
 
     /**
      * Third selected works when it selected and displays an alertDialog object
-     * with the features below.
+     * with A message with an icon and back opption.
      *
      * @param view the view
      */
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements DialogInterface.O
 
     /**
      * Fourth selected works when it selected and displays an alertDialog object
-     * with the features below.
+     * with Generates random colors and display those on the main LinearLayout of the activity.
      *
      * @param view the view
      */
@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity implements DialogInterface.O
 
     /**
      * First selected works when it selected and displays an alertDialog object
-     * with the features below.
+     * with the features that appreas in the previous methond and a reset opption to white.
      *
      * @param view the view
      */
